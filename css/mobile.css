@@ -1,0 +1,26 @@
+html {
+  background-image: url(../img/gradient.jpg);
+}
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #eee;
+  padding: 40px;
+  height: calc(100vw - 80px);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.logo {
+  margin-right: 40px;
+}
